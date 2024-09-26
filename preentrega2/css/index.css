@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+      --tipografia:  "Ungai"
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+}
+
+
+.logo img{
+    height: 70px;
+}
+
+nav a{
+    height: 15%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+nav a:hover{
+    color: pink;
+}
+
+@media (max-width:935px){
+    header{
+        flex-direction: column;
+
+    }
+    nav{
+        text-align: center;
+        padding: 10px 0px;
+    }
+}
+
+h1{
+    display: flex;
+    align-items: flex-start;
+    font-family: var(--tipografia);
+    height: 70px;
+
+}
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+
